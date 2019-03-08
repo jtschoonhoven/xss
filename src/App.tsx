@@ -1,4 +1,4 @@
-import './App.css';
+import './app.css';
 
 import React, { Component } from 'react';
 
@@ -11,7 +11,7 @@ import CallToAction from './components/landing/call-to-action';
 import Footer from './components/landing/footer';
 
 
-class App extends Component {
+export default class App extends Component {
     render(): React.ReactElement<HTMLDivElement> {
         return (
             <div className="App">
@@ -26,5 +26,3 @@ class App extends Component {
         );
     }
 }
-
-export default App;
