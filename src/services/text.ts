@@ -20,7 +20,8 @@ export function mangleText(node: Node = document.body): Promise<void> {
         // mangle the text
         const newText = text
             .split('')
-            .map(char => char.charCodeAt(0) * 3 % 65535)
+            .map(char => char.charCodeAt(0))
+            .map(code => (code + Math.round(Math.random() * 1000)) % 65535)
             .map(code => String.fromCharCode(code))
             .join('');
 
