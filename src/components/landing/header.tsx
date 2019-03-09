@@ -48,7 +48,7 @@ export default class Header extends React.Component<Props, State> {
                     <div className="row">
                         <div className="col-xl-9 mx-auto">
                             <h1 className="mb-5">
-                                Build a landing page for your business or project and generate more leads!
+                                RIOT
                             </h1>
                         </div>
                         <div className="col-md-10 col-lg-8 col-xl-7 mx-auto">
@@ -65,7 +65,7 @@ export default class Header extends React.Component<Props, State> {
                                     </div>
                                     <div className="col-12 col-md-3">
                                         <button type="submit" className="btn btn-block btn-lg btn-primary">
-                                            Sign up!
+                                            Sign up
                                         </button>
                                     </div>
                                 </div>

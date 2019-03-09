@@ -7,7 +7,6 @@ import Navbar from './components/landing/navbar';
 import Showcase from './components/landing/showcase';
 import Header from './components/landing/header';
 import Testimonials from './components/landing/testimonials';
-import CallToAction from './components/landing/call-to-action';
 import Footer from './components/landing/footer';
 
 
@@ -20,7 +19,6 @@ export default class App extends Component {
                 <Features />
                 <Showcase />
                 <Testimonials />
-                <CallToAction />
                 <Footer />
             </div>
         );
